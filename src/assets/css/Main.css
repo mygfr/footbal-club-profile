@@ -1,0 +1,54 @@
+#app{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.router-link-exact-active{
+    font-weight: bold;
+}
+
+.btn-danger, .badge-success{
+    background: #F50057;
+}
+
+.btn-link{
+    color: #F50057;
+}
+
+.btn-link:hover{
+    color: #d1adba;
+}
+
+.title-section strong{    
+    color: #F50057;
+}
+
+.country-list{
+    text-decoration: none !important;
+    color: #000000;
+}
+
+.country-list:hover{
+    transition: .4s ease all;
+    color: #F50057;
+}
+
+.jumbotron{
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+
+}
+@media screen and (max-width: 767px) {
+    .jumbotron{
+        padding: 16px !important;
+    }
+}
+.logo-jumbroton{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+}
+.logo-media{
+    width: 64px;
+    height: 100%;
+    object-fit: cover;
+}
